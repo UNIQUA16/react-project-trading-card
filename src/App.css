@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+
+.pic{
+  object-position: top;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.App{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  padding: 60px;
+  height: 100vh;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header{
+  color: red;
+  padding: 60px;
+  font-style: oblique;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.cardarea{
+  background-color: #80cbc4 !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* to change the entire background image of the page */
+html{
+  
+  background-image: url('https://i1.wp.com/ndsmcobserver.com/wp-content/uploads/2021/08/1630530806-f7ba8998c40f4dc.jpg?resize=700%2C463&ssl=1');
+  background-attachment: fixed;
 }
